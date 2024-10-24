@@ -31,6 +31,10 @@ function incrementCounter(){
 const counterInterval = setInterval(incrementCounter, 100);
 
 
+navbar.addEventListener("mouseleave",function(){
+    navbar.style.display = "none";
+})
+
 // about scroll
 // document.getElementById("about-link").addEventListener("click", function (event) {
 //     event.preventDefault(); // Prevent the default anchor click behavior
