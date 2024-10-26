@@ -5,6 +5,15 @@ const btnclose = document.querySelector(".btn-close");
 const btnOpen = document.querySelector("#btn-open")
 
 
+function handleloading(){
+
+    const loading = document.querySelector(".loading");
+    loading.style.display = "none";
+}
+window.addEventListener('load',()=>{
+    setTimeout(handleloading,1500);
+})
+
 window.addEventListener("DOMContentLoaded",function(){
     navbar.style.display = "none";
     btnclose.addEventListener("click",()=>{
