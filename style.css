@@ -490,7 +490,7 @@ button a{
 
 .from-msg input{
     padding: 15px;
-    width: 400px;
+    width: 100%;
 }
 .from-msg input::placeholder{
    text-transform: capitalize;
@@ -522,14 +522,15 @@ button a{
 .footer .block-footer{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(270px,auto));
-    gap: 5rem;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 20px;
 }
 .block-footer .footer-page h1{
     padding: 15px 0;
     text-transform: capitalize;
 }
 .block-footer .footer-page p{
-    width: 300px;
     line-height: 30px;
 }
 .footer-page ul li{
