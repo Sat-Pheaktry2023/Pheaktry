@@ -31,7 +31,7 @@ function incrementCounter(){
 const counterInterval = setInterval(incrementCounter, 100);
 
 
-navbar.addEventListener("mouseleave",function(){
+navbar.addEventListener("click",function(){
     navbar.style.display = "none";
 })
 
