@@ -620,7 +620,6 @@ button a{
 }
 .project{
     display: block;
-    padding: 15px;
 }
 .image-project{
     display: block;
@@ -673,7 +672,7 @@ button a{
     width: 100%;    
 }
 .from-msg{
-    padding: 50px;
+    padding: 70px;
 }
 
 }
